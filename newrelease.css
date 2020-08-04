@@ -1,0 +1,33 @@
+@media only screen and (min-width: 768px) {
+  body {
+  background-image: url('background.jpg');
+  padding: 160px 60px;
+  height: 1000px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0px;
+  }
+.flex-row {
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+}
+}
+
+@media only screen and (max-width: 767px) {
+  body {      
+   background: rgb(189,146,209);
+  
+ }
+.flex-row {
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+}
+
+html{
+  overflow: scroll;
+}
